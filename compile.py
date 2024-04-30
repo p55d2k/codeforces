@@ -14,9 +14,6 @@ if not os.path.exists(filepath):
     sys.exit(1)
     
 os.system("g++ " + filepath + " -o a.out")
-time.sleep(2)
-print("\nRunning...")
-time.sleep(1)
 print("\033c")
 os.system("./a.out")
 os.remove("a.out")
