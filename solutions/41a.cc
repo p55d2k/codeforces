@@ -1,4 +1,4 @@
-// time taken to solve: 2:51 min
+// time taken to solve (already read problem): 2:51 min
 
 #include <iostream>
 #include <algorithm>

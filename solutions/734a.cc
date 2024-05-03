@@ -1,4 +1,4 @@
-// time taken to solve: 3:51 min
+// time taken to solve (already read problem): 3:51 min
 
 #include <iostream>
 using namespace std;

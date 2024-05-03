@@ -1,4 +1,4 @@
-// time taken to solve: 3:47 min
+// time taken to solve (already read problem): 3:47 min
 
 #include <iostream>
 #include <vector>
