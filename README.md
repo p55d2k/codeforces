@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/p55d2k/codeforces">
-    <img src="https://codeforces.org/s/51925/images/codeforces-sponsored-by-ton.png" alt="Logo" width="500" height="260">
+    <img src="https://codeforces.org/s/51925/images/codeforces-sponsored-by-ton.png" alt="Logo" width="600" height="195">
   </a>
   <h1>CodeForces Solutions</h1>
 
