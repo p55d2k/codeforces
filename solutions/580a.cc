@@ -11,6 +11,7 @@ int main()
     int n;
     cin >> n;
 
+    // originally meant to be infinity but couldnt find out how to use it
     ll prev = 1e10;
     ll cur;
 
