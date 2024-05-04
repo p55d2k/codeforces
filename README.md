@@ -12,18 +12,17 @@
 
 </div>
 
-
 ## About 📖
 
-CodeForces is a repository for codeforces answers done by [p55d2k](https://codeforces.com/p55d2k/). Each problem is solved in either [Python](https://python.org/), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript#)/[TypeScript](https://www.typescriptlang.org) or [C++](https://cplusplus.com). The problems are <i>not</i> solved in the most efficient way possible. The solutions are tested and verified by CodeForces, and are all accepted.
+CodeForces is a repository for codeforces answers done by [p55d2k](https://codeforces.com/profile/p55d2k/). Each problem is solved in either [Python](https://python.org/) with the <b>Python 3.8.10</b> compiler, or [C++](https://cplusplus.com) with the <b>GNU G++14 6.4.0 compiler</b> on CodeForces.
 
+The problems are <i>not</i> solved in the most efficient way possible. The solutions are tested and verified by CodeForces, and are all accepted.
 
 ## Contributions 🤝
 
 Contributions, issues and feature requests are welcome!
 
 It would be great to have some help to improve this project. Feel free to fork this project and work on it. You can also open **an issue** or **pull request** for any feature requests or bug reports related to this project.
-
 
 ## License 📝
 
