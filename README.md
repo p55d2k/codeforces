@@ -12,11 +12,44 @@
 
 </div>
 
+## Table of Contents 📜
+
+- [About](#about-📖)
+- [Requirements](#requirements-📦)
+- [Installation](#installation-🚀)
+- [Contributions](#contributions-🤝)
+- [License](#license-📝)
+
 ## About 📖
 
-CodeForces is a repository for codeforces answers done by [p55d2k](https://codeforces.com/profile/p55d2k/). Each problem is solved in either [Python](https://python.org/) with the <b>Python 3.8.10</b> compiler, or [C++](https://cplusplus.com) with the <b>GNU G++14 6.4.0 compiler</b> on CodeForces.
+CodeForces Solutions is a repository for codeforces answers done by [p55d2k](https://codeforces.com/profile/p55d2k/). Each problem is solved in either [Python](https://python.org/) with the <b>Python 3.8.10</b> compiler, or [C++](https://cplusplus.com) with the <b>GNU G++14 6.4.0 compiler</b> on CodeForces.
 
 The problems are <i>not</i> solved in the most efficient way possible. The solutions are tested and verified by CodeForces, and are all accepted.
+
+## Requirements 📦
+
+The following are the requirements to run this project:
+
+- Python >= 3.6
+- C++ >= 14
+
+## Installation 🚀
+
+To install this project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/p55d2k/codeforces.git
+```
+
+2. Compile the program:
+
+```bash
+python3 compile.py <problem_id>
+```
+eg. `python3 compile.py 1a`
+
 
 ## Contributions 🤝
 
@@ -30,20 +63,10 @@ It would be great to have some help to improve this project. Feel free to fork t
 
 Copyright © 2024 by [p55d2k](https://github.com/p55d2k)
 
-**CodeForces** is available and distributed under the [MIT License](https://github.com/p55d2k/codeforces/LICENSE).
+**Codeforces Solutions** is available and distributed under the [MIT License](https://github.com/p55d2k/codeforces/LICENSE).
 
 ### Code of Conduct
 
-You are allowed to distribute, modify the codes, or use this project for personal use. However, I would appreciate being credited as the author of the project or website.
-
-If you want to make it commercial, you must ask for my permission, as i'm working on this project with a non-negligible amount of effort, experiences, knowledge and time.
-
-There is a thin line between getting influenced or inspired and duplicating or plagiarizing. I want people to learn from and adapt from this project and later modify it to make it their own.
-
-**NEVER CLAIM** all of my work or effort as your own!
-<br/>
-I never give permission to publish or present any of my projects as your own.
-
-<p align="right">( <a href="#top">back to top</a> )</p>
+You are allowed to distribute, modify the codes, or use this project for personal or commerical use. However, please do credit me as the author of the project or website.
 
 Template taken from [Frans Jesky's](https://github.com/fransjesky) [Project Sinclair](https://github.com/fransjesky/sinclair) README.
