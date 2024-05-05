@@ -11,6 +11,8 @@ if [ ! -f solutions/$1.cc ]; then
 fi
 
 g++ solutions/$1.cc -o a.out
-echo "\033c"
+clear
+echo "running solutions/$1.cc"
+echo "========================"
 ./a.out
 rm a.out
