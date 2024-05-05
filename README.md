@@ -30,7 +30,8 @@ The problems are <i>not</i> solved in the most efficient way possible. The solut
 
 The following are the requirements to run this project:
 
-- Python >= 3.6
+- Python >= 3.6 (for compilation)
+- GNU G++14 6.4.0 compiler
 - C++ >= 14
 
 ## Installation 🚀
@@ -45,11 +46,23 @@ git clone https://github.com/p55d2k/codeforces.git
 
 2. Compile the program:
 
+On Windows:
+
 ```bash
 python3 compile.py <problem_id>
 ```
+
 eg. `python3 compile.py 1a`
 
+On Linux/MacOS:
+
+```bash
+./compile <problem_id>
+```
+
+eg. `./compile 1a`
+
+Note: Run `chmod +x ./compile` to make the script executable before compiling.
 
 ## Contributions 🤝
 
