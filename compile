@@ -5,14 +5,32 @@ if [ -z $1 ]; then
   exit 1
 fi
 
-if [ ! -f solutions/$1.cc ]; then
-  echo "solutions/$1.cc does not exist."
+if [ ! -f solutions/$1.cc && ! -f solutions/$1.k && ! -f solutions/$1.py ]; then
+  echo "Error: solutions/$1.cc, solutions/$1.kt and solutions/$1.py do not exist."
   exit 1
 fi
 
-g++ solutions/$1.cc -o a.out
-clear
-echo "running solutions/$1.cc"
-echo "========================"
-./a.out
-rm a.out
+if [ -f solutions/$1.cc ]; then
+  g++ solutions/$1.cc -o a.out
+  clear
+  echo "running solutions/$1.cc"
+  echo "========================"
+  ./a.out
+  rm a.out
+fi
+
+if [ -f solutions/$1.kt ]; then
+  kotlinc solutions/$1.kt -include-runtime -d a.jar
+  clear
+  echo "running solutions/$1.kt"
+  echo "========================"
+  java -jar a.jar
+  rm a.jar
+fi
+
+if [ -f solutions/$1.py ]; then
+  clear
+  echo "running solutions/$1.py"
+  echo "========================"
+  python3 solutions/$1.py
+fi

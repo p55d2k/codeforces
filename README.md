@@ -24,6 +24,9 @@
 
 CodeForces Solutions is a repository for codeforces answers done by [p55d2k](https://codeforces.com/profile/p55d2k/). Each problem is solved in either [Python](https://python.org/) with the <b>Python 3.8.10</b> compiler, or [C++](https://cplusplus.com) with the <b>GNU G++14 6.4.0 compiler</b> on CodeForces.
 
+Other languages:
+- [Kotlin 1.9](https://kotlinlang.org/)
+
 The problems are <i>not</i> solved in the most efficient way possible. The solutions are tested and verified by CodeForces, and are all accepted.
 
 ## Requirements 📦
