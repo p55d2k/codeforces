@@ -16,3 +16,4 @@ echo "running solutions/$1.cc"
 echo "========================"
 ./a.out
 rm a.out
+clear
