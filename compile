@@ -5,7 +5,7 @@ if [ -z $1 ]; then
   exit 1
 fi
 
-if [ ! -f solutions/$1.cc && ! -f solutions/$1.k && ! -f solutions/$1.py ]; then
+if [ ! -f solutions/$1.cc ] && [ ! -f solutions/$1.kt ] && [ ! -f solutions/$1.py ]; then
   echo "Error: solutions/$1.cc, solutions/$1.kt and solutions/$1.py do not exist."
   exit 1
 fi
